@@ -5,3 +5,8 @@ function getComputerChoice (){
 
     console.log(playedChoice);
 }
+
+function getHumanChoice (){
+    let humanChoice = prompt('Please enter your choice');
+    console.log(humanChoice);
+}
